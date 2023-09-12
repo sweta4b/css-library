@@ -1,0 +1,81 @@
+/* Text Component Styles */
+.text {
+    /* Default typography styles */
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Heading Styles */
+  .text h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .text h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Text Color Variations */
+  .text .primary-text {
+    color: #007bff; /* Blue color */
+  }
+  
+  .text .secondary-text {
+    color: #6c757d; /* Gray color */
+  }
+  
+  /* Spacing and Margins */
+  .text .mb-1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .text .mb-2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Utility Classes */
+  .text .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .text .italic {
+    font-style: italic;
+  }
+
+  .text .underline {
+    text-decoration: underline;
+  }
+
+  .text .linethrough{
+    text-decoration: line-through;
+  }
+
+  
+  /* Hover and Focus Styles for Links */
+  .text a:hover,
+  .text a:focus {
+    text-decoration: underline;
+    color: #ff5733; /* Orange color */
+  }
+  
+  /* Accessibility Considerations */
+  .text .accessible {
+    color: #000;
+
+  }
+  
+  /* Responsive Typography */
+  @media (max-width: 768px) {
+    .text {
+      font-size: 14px;
+    }
+  }
+  

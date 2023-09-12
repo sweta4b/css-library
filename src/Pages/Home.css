@@ -1,0 +1,15 @@
+.home-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.overview{
+    padding-top: 20px;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+    display: block;
+    margin: auto;
+}
