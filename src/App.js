@@ -1,29 +1,31 @@
 import {Route, Routes} from "react-router-dom"
 import './App.css';
-import Alert from "./Pages/Alert";
+import AlertPage from "./Pages/AlertPage";
 import BadgePage from "./Pages/BadgePage";
-import Card from "./Pages/Card";
-import Heading from "./Pages/Heading";
-import Image from "./Pages/Image";
-import Text from "./Pages/Text";
-import Home from "./Pages/Home";
+import CardPage from "./Pages/CardPage";
+import HeadingPage from "./Pages/HeadingPage";
+import ImagePage from "./Pages/ImagePage";
+import TextPage from "./Pages/TextPage";
+import ComponentPage from "./Pages/ComponentPage";
 import AvatarPage from "./Pages/AvatarPage";
 import ButtonPage from "./Pages/ButtonPage";
+import HomePage from "./Pages/HomePage";
 
 
 function App() {
   return (
     <div className="App">
      <Routes>
-       <Route path="/home" element={<Home/>}></Route>
-       <Route path="/avatar" element={<AvatarPage/>}></Route>
-       <Route path="/alert" element={<Alert/>}></Route>
-       <Route path="/badge" element={<BadgePage/>}></Route>
-       <Route path="/button" element={<ButtonPage/>}></Route>
-       <Route path="/card" element={<Card/>}></Route>
-       <Route path="/headings" element={<Heading/>}></Route>
-       <Route path="/image" element={<Image/>}></Route>
-       <Route path="/text" element={<Text/>}></Route>
+      <Route path="/" element={<HomePage/>}></Route>
+       <Route path="/component" element={<ComponentPage/>}></Route>
+       <Route path="/component/avatar" element={<AvatarPage/>}></Route>
+       <Route path="/component/alert" element={<AlertPage/>}></Route>
+       <Route path="/component/badge" element={<BadgePage/>}></Route>
+       <Route path="/component/button" element={<ButtonPage/>}></Route>
+       <Route path="/component/card" element={<CardPage/>}></Route>
+       <Route path="/component/headings" element={<HeadingPage/>}></Route>
+       <Route path="/component/image" element={<ImagePage/>}></Route>
+       <Route path="/component/text" element={<TextPage/>}></Route>
      </Routes>
     </div>
   );

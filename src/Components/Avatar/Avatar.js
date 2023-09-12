@@ -1,10 +1,13 @@
 import React from 'react'
 import './Avatar.css'
 
-function Avatar({src, size, alt}) {
+function Avatar({src, size}) {
     return (
         <div>
-        <img src={src} alt={alt} className={size}/>
+        <img src={src} 
+        onError={(e)=>{e.target.onerror = null; e.target.src="../avatar.img.png"}}
+        alt="user"
+        className={size} />
         </div>
     )
 }

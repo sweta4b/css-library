@@ -1,7 +1,7 @@
 import React from 'react'
 import './Card.css'
 
-function TeaxtOnlyCard({children}) {
+function TextOnlyCard({children}) {
     return (
         <div className="card text-only-card">
        {children}
@@ -9,4 +9,4 @@ function TeaxtOnlyCard({children}) {
     )
 }
 
-export default TeaxtOnlyCard
+export default TextOnlyCard

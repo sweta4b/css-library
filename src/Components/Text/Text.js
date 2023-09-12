@@ -1,7 +1,7 @@
 import React from 'react'
-import './TextBox.css'
+import './Text.css'
 
-function TextBox({children, classname}) {
+function Text({children, classname}) {
     return (
         <div className="text">
      <p className={classname}>{children}</p>
@@ -10,4 +10,4 @@ function TextBox({children, classname}) {
     )
 }
 
-export default TextBox
+export default Text
