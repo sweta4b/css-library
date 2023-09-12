@@ -42,19 +42,19 @@
   }
   
   /* Utility Classes */
-  .text .uppercase {
+  .text .uppercase-text {
     text-transform: uppercase;
   }
   
-  .text .italic {
+  .text .italic-text {
     font-style: italic;
   }
 
-  .text .underline {
+  .text .underline-text {
     text-decoration: underline;
   }
 
-  .text .linethrough{
+  .text .linethrough-text{
     text-decoration: line-through;
   }
 
