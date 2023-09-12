@@ -1,6 +1,6 @@
 // SuccessAlert.js
 import React, { useState, useEffect } from 'react';
-import './SuccessAlert.css';
+import './Alert.css';
 
 const AlertComponent = ({ message, type }) => {
   const [visible, setVisible] = useState(true);
