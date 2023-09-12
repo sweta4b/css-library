@@ -6,7 +6,7 @@ function Header() {
 
     const handleSearch = () => {
         if(searchTerm === 'avatar' || searchTerm === 'alert' || searchTerm === 'badge' || searchTerm === 'button' || searchTerm === 'card' || searchTerm === 'heading' || searchTerm === 'image' || searchTerm === 'text'){
-            navigate(`/component/${searchTerm}`)
+            navigate(`/${searchTerm}`)
             setSearchTerm('')
         }else{
             alert('No result found')

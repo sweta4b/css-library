@@ -7,8 +7,8 @@ import OverlayCard from '../Components/Card/OverlayCard'
 import ShadowCard from '../Components/Card/ShadowCard'
 import TextOnlyCard from '../Components/Card/TextOnlyCard'
 import VerticalCard from '../Components/Card/VerticalCard'
-import Header from './component/Header'
-import Navbar from './component/Navbar/Navbar'
+import Header from '../Pages/component/Header'
+import Navbar from '../Pages/component/Navbar/Navbar'
 
 function CardPage() {
     return (

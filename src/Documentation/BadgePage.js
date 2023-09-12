@@ -5,8 +5,8 @@ import Badge from '../Components/Badge/Badge'
 import CartButton from '../Components/Button/IconButton/CartButton'
 import CommentButton from '../Components/Button/IconButton/CommentButton'
 import LikeButton from '../Components/Button/IconButton/LikeButton'
-import Header from './component/Header'
-import Navbar from './component/Navbar/Navbar'
+import Header from '../Pages/component/Header'
+import Navbar from '../Pages/component/Navbar/Navbar'
 
 
 

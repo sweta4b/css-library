@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './component/Navbar/Navbar'
+import Navbar from '../Pages/component/Navbar/Navbar'
 import Avatar from '../Components/Avatar/Avatar'
-import Header from './component/Header'
+import Header from '../Pages/component/Header'
 import Highlight from 'react-highlight'
 
 function AvatarPage() {

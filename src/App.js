@@ -1,14 +1,14 @@
 import {Route, Routes} from "react-router-dom"
 import './App.css';
-import AlertPage from "./Pages/AlertPage";
-import BadgePage from "./Pages/BadgePage";
-import CardPage from "./Pages/CardPage";
-import HeadingPage from "./Pages/HeadingPage";
-import ImagePage from "./Pages/ImagePage";
-import TextPage from "./Pages/TextPage";
+import AlertPage from "./Documentation/AlertPage";
+import BadgePage from "./Documentation/BadgePage";
+import CardPage from "./Documentation/CardPage";
+import HeadingPage from "./Documentation/HeadingPage";
+import ImagePage from "./Documentation/ImagePage";
+import TextPage from "./Documentation/TextPage";
 import ComponentPage from "./Pages/ComponentPage";
-import AvatarPage from "./Pages/AvatarPage";
-import ButtonPage from "./Pages/ButtonPage";
+import AvatarPage from "./Documentation/AvatarPage";
+import ButtonPage from "./Documentation/ButtonPage";
 import HomePage from "./Pages/HomePage";
 
 
@@ -18,14 +18,14 @@ function App() {
      <Routes>
       <Route path="/" element={<HomePage/>}></Route>
        <Route path="/component" element={<ComponentPage/>}></Route>
-       <Route path="/component/avatar" element={<AvatarPage/>}></Route>
-       <Route path="/component/alert" element={<AlertPage/>}></Route>
-       <Route path="/component/badge" element={<BadgePage/>}></Route>
-       <Route path="/component/button" element={<ButtonPage/>}></Route>
-       <Route path="/component/card" element={<CardPage/>}></Route>
-       <Route path="/component/headings" element={<HeadingPage/>}></Route>
-       <Route path="/component/image" element={<ImagePage/>}></Route>
-       <Route path="/component/text" element={<TextPage/>}></Route>
+       <Route path="/avatar" element={<AvatarPage/>}></Route>
+       <Route path="/alert" element={<AlertPage/>}></Route>
+       <Route path="/badge" element={<BadgePage/>}></Route>
+       <Route path="/button" element={<ButtonPage/>}></Route>
+       <Route path="/card" element={<CardPage/>}></Route>
+       <Route path="/headings" element={<HeadingPage/>}></Route>
+       <Route path="/image" element={<ImagePage/>}></Route>
+       <Route path="/text" element={<TextPage/>}></Route>
      </Routes>
     </div>
   );

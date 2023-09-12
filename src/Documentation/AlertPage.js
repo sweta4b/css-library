@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import Highlight from 'react-highlight';
 import AlertComponent from '../Components/Alert/AlertComponent';
-import Header from './component/Header';
-import Navbar from './component/Navbar/Navbar';
+import Header from '../Pages/component/Header';
+import Navbar from '../Pages/component/Navbar/Navbar';
 
 
 function AlertPage() {

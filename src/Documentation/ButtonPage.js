@@ -10,8 +10,8 @@ import EditIconButton from '../Components/Button/IconButton/EditIconButton'
 import LikeButton from '../Components/Button/IconButton/LikeButton'
 import ShareButton from '../Components/Button/IconButton/ShareButton'
 import LinkButton from '../Components/Button/LinkButton'
-import Header from './component/Header'
-import Navbar from './component/Navbar/Navbar'
+import Header from '../Pages/component/Header'
+import Navbar from '../Pages/component/Navbar/Navbar'
 
 function ButtonPage() {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './component/Navbar/Navbar'
+import Navbar from '../Pages/component/Navbar/Navbar'
 import Text from '../Components/Text/Text'
-import Header from './component/Header'
+import Header from '../Pages/component/Header'
 import Highlight from 'react-highlight'
 
 function TextPage() {

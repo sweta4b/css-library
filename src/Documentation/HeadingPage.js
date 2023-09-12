@@ -1,8 +1,8 @@
 import React from 'react'
 import Highlight from 'react-highlight'
 import Headline from '../Components/Headings/Headline'
-import Header from './component/Header'
-import Navbar from './component/Navbar/Navbar'
+import Header from '../Pages/component/Header'
+import Navbar from '../Pages/component/Navbar/Navbar'
 
 function HeadingPage() {
     return (

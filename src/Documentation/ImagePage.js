@@ -2,8 +2,8 @@ import React from 'react'
 import Highlight from 'react-highlight'
 import ResponsiveImage from '../Components/Image/ResponsiveImage'
 import RoundImage from '../Components/Image/RoundImage'
-import Header from './component/Header'
-import Navbar from './component/Navbar/Navbar'
+import Header from '../Pages/component/Header'
+import Navbar from '../Pages/component/Navbar/Navbar'
 
 function ImagePage() {
     return (
