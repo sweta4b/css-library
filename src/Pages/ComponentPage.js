@@ -12,11 +12,11 @@ function ComponentPage() {
             <Navbar />
             <div className='overview'>
                 <h1>Library Overview</h1>
-                <p>CSS-Library is a versatile and customizable CSS component library designed to simplify web development and elevate your projects. With a carefully curated collection of resuable components.Css-libray empowers developers to create beautiful and consistent user interfaces effortlessly</p>
-                <p>To install CSS-Lirary, you can follow these steps:</p>
+                <p>React-Component-Library is a versatile component library designed to simplify web development and elevate your projects. With a carefully curated collection of resuable components. It empowers developers to create beautiful and consistent user interfaces effortlessly</p>
+                <p>To install React-Component-Library, you can follow these steps:</p>
                 
                 <ol>
-                    <li><strong>Open a Terminal or Command Proompt:</strong> Open your terminal or command prompt application. Make sure you have Node.js and npm installed on your system</li>
+                    <li><strong>Open a Terminal or Command Proompt:</strong> Open your terminal or command prompt application. Make sure you have Node.js and npm installed on your system.</li>
                     <li><strong>Navigate to Your Directory:</strong> Use the <b>`cd`</b> command to navigate to your React project directory where you want to install.</li>
                     <Highlight>{`cd path/to/your/project`}</Highlight>
                     <li><strong>Install the library:</strong> Use the <b>`npm install s4b-react-component-library`</b> or <b>`npm i s4b-react-component-library`</b> to install.</li>

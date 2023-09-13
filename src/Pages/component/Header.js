@@ -17,7 +17,7 @@ function Header() {
     return (
         <div>
          <div className='header'>
-                 <h2 onClick={() => navigate('/')}>CSS-Library</h2>
+                 <h2 onClick={() => navigate('/')}>React-Component-Library</h2>
                  <div className='search-bar'>
                  <input onChange={(e) => setSearchTerm(e.target.value)} placeholder='search component'/>
                  <button onClick={handleSearch}>Search</button>

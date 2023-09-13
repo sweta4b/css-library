@@ -18,17 +18,20 @@ function ImagePage() {
                 <ul>
                     <li>
                         <h2>Round Image:</h2>
-                        <RoundImage src="../background.png" />
+                        <RoundImage src="../avatar.img.png" />
                     </li>
                     <Highlight>
                         {`<RoundImage src="../background.png" />`}
                     </Highlight>
                     <li>
+                        
                         <h2>Responsive Image</h2>
+                        <div style={{width:'600px'}}>
                         <ResponsiveImage src="../background.png" />
+                        </div>
                     </li>
                     <Highlight>
-                        {`<ResponsiveImage src="../background.png" />`}
+                        {`<ResponsiveImage src="../card.img.png" />`}
                     </Highlight>
                 </ul>
             </div>

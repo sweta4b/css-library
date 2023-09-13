@@ -13,9 +13,9 @@ function HomePage() {
                 <img src="./background.img.png" alt="bg-img"/>
                 </div>
                 <div className='name-button'>
-                    <h1>CSS-Library</h1>
-                    <p>Css-library is a versatile and customizable CSS component library designed to simplify web development and elevate your projects.</p>
-                  <button className='start-button' onClick={() => navigate('/component')}>Get Start</button>
+                    <h1>React-Component-Library</h1>
+                    <p>React-Component-Library is a versatile and customizable component library designed to simplify web development and elevate your projects.</p>
+                  <button className='start-button' onClick={() => navigate('/component')}>Get Started</button>
             </div>
             </div>
         </div>
