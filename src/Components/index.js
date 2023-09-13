@@ -1,7 +1,7 @@
 export {AlertComponent} from './Alert/AlertComponent';
 export {Avatar} from './Avatar/Avatar';
 export {Badge} from './Badge/Badge';
-export { FloatingButton} from './Button/FloatingButton/FloatingButton';
+export {FloatingButton} from './Button/FloatingButton/FloatingButton';
 export {AddFloatingButton} from './Button/FloatingButton/AddFloatingButton';
 export {CartButton} from './Button/IconButton/CartButton';
 export {CommentButton} from './Button/IconButton/CommentButton';

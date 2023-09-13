@@ -1,23 +1,26 @@
 {
   "name": "css-library",
   "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sweta4b/css-library"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "font-awesome": "^4.7.0",
-    "highlight.js": "^11.8.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-highlight": "^0.15.0",
-    "react-router": "^6.15.0",
-    "react-router-dom": "^6.15.0",
-    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set NODE_ENV=production&& babel src/Components --out-dir dist --copy-files --ignore __test__",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,8 +43,23 @@
     ]
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.4",
-    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@babel/cli": "^7.22.15",
+    "@babel/core": "^7.22.17",
+    "@babel/preset-env": "^7.22.15",
+    "@babel/preset-react": "^7.22.15",
+    "highlight.js": "^11.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-highlight": "^0.15.0",
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
     "rollup": "^2.79.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.15.0"
   }
 }

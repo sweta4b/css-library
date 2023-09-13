@@ -1,0 +1,27 @@
+.avatar-container{
+    display:flex ;
+    flex-direction: row;
+    gap:20px;
+}
+
+.avatar {
+    object-fit: cover;
+}
+
+.sm{
+    width:3rem;
+    height: 3rem;
+    border-radius: 50px;
+}
+
+.md{
+   width:4rem;
+   height: 4rem;
+   border-radius: 50px;
+}
+
+.lg{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+}

@@ -1,0 +1,32 @@
+.primary{
+    border: 1px solid rgb(123, 43, 228);
+    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+    background-color: rgb(123, 43, 228);
+    font-size: 1rem;
+    cursor: pointer;
+    color:white;
+    
+}
+
+.primary:hover{
+    background-color: rgb(145, 72, 240);
+    border-radius: rgb(123, 43, 228);
+}
+
+.outlined:hover{
+    background-color: rgb(123, 43, 228);
+    color: white;
+}
+
+.outlined{
+    border: 1px solid rgb(123, 43, 228);
+    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(123, 43, 228);
+}
