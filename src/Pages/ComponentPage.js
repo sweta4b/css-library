@@ -19,13 +19,13 @@ function ComponentPage() {
                     <li><strong>Open a Terminal or Command Proompt:</strong> Open your terminal or command prompt application. Make sure you have Node.js and npm installed on your system.</li>
                     <li><strong>Navigate to Your Directory:</strong> Use the <b>`cd`</b> command to navigate to your React project directory where you want to install.</li>
                     <Highlight>{`cd path/to/your/project`}</Highlight>
-                    <li><strong>Install the library:</strong> Use the <b>`npm install s4b-react-component-library`</b> or <b>`npm i s4b-react-component-library`</b> to install.</li>
-                    <Highlight>{`npm install s4b-react-component-library 
+                    <li><strong>Install the library:</strong> Use the <b>`npm install sb-react-component-library`</b> or <b>`npm i sb-react-component-library`</b> to install.</li>
+                    <Highlight>{`npm install sb-react-component-library 
                     Or
-npm i s4b-react-component-library`}</Highlight>
+npm i sb-react-component-library`}</Highlight>
                     <li><strong>Import and Use the Library:</strong> Once the installation is complete, you can import and use the library in your project.</li>
                     <Highlight>{`import React from 'react'
-import Avatar from 's4b-react-component-library/dist/Avatar/Avatar'
+import Avatar from 'sb-react-component-library/dist/Avatar/Avatar'
 
 function App() {
     return (

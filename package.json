@@ -1,5 +1,5 @@
 {
-  "name": "s4b-react-component-library",
+  "name": "sb-react-component-library",
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.js",

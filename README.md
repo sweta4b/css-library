@@ -9,19 +9,19 @@ To install React-Component-Library, you can follow these steps:
 cd path/to/your/project
 ```
 
-4.  **Install the library:** Use the **`npm install s4b-react-component-library`** or **`npm i s4b-react-component-library`** to install.
+4.  **Install the library:** Use the **`npm install sb-react-component-library`** or **`npm i sb-react-component-library`** to install.
 
 ```
-npm install s4b-react-component-library
+npm install sb-react-component-library
                     Or
-npm i s4b-react-component-library
+npm i sb-react-component-library
 ```
 
 6.  **Import and Use the Library:** Once the installation is complete, you can import and use the library in your project.
 
 ```
 import React from 'react'
-import Avatar from 's4b-react-component-library/dist/Avatar/Avatar'
+import Avatar from 'sb-react-component-library/dist/Avatar/Avatar'
 
 function App() {
     return (
