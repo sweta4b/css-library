@@ -18,18 +18,17 @@ function ImagePage() {
                 <ul>
                     <li>
                         <h2>Round Image:</h2>
-                        <RoundImage src="../card.img.jpg" />
-                        <RoundImage src="" />
+                        <RoundImage src="../background.png" />
                     </li>
                     <Highlight>
-                        {`<RoundImage src="../card.img.jpg" />`}
+                        {`<RoundImage src="../background.png" />`}
                     </Highlight>
                     <li>
                         <h2>Responsive Image</h2>
-                        <ResponsiveImage src="../card.img.jpg" />
+                        <ResponsiveImage src="../background.png" />
                     </li>
                     <Highlight>
-                        {`<ResponsiveImage src="../card.img.jpg" />`}
+                        {`<ResponsiveImage src="../background.png" />`}
                     </Highlight>
                 </ul>
             </div>
