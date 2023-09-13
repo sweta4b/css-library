@@ -20,6 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "build-app": "react-script build",
     "build": "set NODE_ENV=production&& babel src/Components --out-dir dist --copy-files --ignore __test__",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
